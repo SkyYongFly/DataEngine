@@ -46,7 +46,7 @@ MEB Data Engine，数据引擎，Web在线化数据流解决方案，解决业�
 
 * SQL面板
 
-  <img src="README.assets/1578318453219.png" alt="1578318453219" style="zoom: 33%;" />
+  <img src="README.assets/1578318453219.png" alt="1578318453219" height="380" width="450" />
 
 * 数据流引擎面板
 
