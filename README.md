@@ -1,4 +1,4 @@
-5MEB（Micro Enterprise Basic）Platform 数据引擎
+MEB（Micro Enterprise Basic）Platform 数据引擎
 ========
 
 [![ASL 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/Activiti/Activiti/blob/master/LICENSE.txt)
