@@ -22,7 +22,7 @@ MEB Data Engine，数据引擎，Web在线化数据流解决方案，解决业�
 
     * 获取缓存、消息、ES等中间件数据
     * 支持Redis、EhCache等缓存中间件
-    * 支持RabbitMQ、Kafka等消息中间件、
+    * 支持RabbitMQ、Kafka等消息中间件
     * 支持ElasticSearch等检索引擎
   
 * 数据流引擎
@@ -50,4 +50,4 @@ MEB Data Engine，数据引擎，Web在线化数据流解决方案，解决业�
 
 * 数据流引擎面板
 
-  <img src="README.assets/1578318603386.png" alt="1578318603386" style="zoom: 33%;" />
+  <img src="README.assets/1578318603386.png" alt="1578318603386" style="zoom: 50%;" />
