@@ -1,4 +1,4 @@
-MEB（Micro Enterprise Basic）Platform 数据引擎
+5MEB（Micro Enterprise Basic）Platform 数据引擎
 ========
 
 [![ASL 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/Activiti/Activiti/blob/master/LICENSE.txt)
@@ -8,17 +8,17 @@ MEB Data Engine，数据引擎，Web在线化数据流解决方案，解决业�
 功能模块
 --------------------
 
-* SQL面板
+* SQL引擎
 
     * 可视化SQL生成器，单表、级联自动生成，SQL校验，简化SQL编写
     * 多数据源形式支持，涵盖大部分应用场景，做到数据流引擎的跨场景应用
     
-* 服务面板
+* 服务引擎
 
     * 定制数据获取服务接口，可视化配置器，支持REST等多形式接口
     * Netty框架支撑，保证服务处理的性能、稳定性
 
-* 中间件面板
+* 中间件引擎
 
     * 获取缓存、消息、ES等中间件数据
     * 支持Redis、EhCache等缓存中间件
@@ -40,6 +40,18 @@ MEB Data Engine，数据引擎，Web在线化数据流解决方案，解决业�
 
     * 集成JVM性能监控等工具
     * Docker自动化部署等工具
+
+技术架构
+--------------------
+* 基础技术
+
+   * SpringBoot构建的Web应用，后续集群应用开发完毕升级为微服务架构
+   
+   * 相关组件中间件：MyBatis、Oracle、MySQL、Redis、Netty、Kafka等
+
+* 整体架构
+
+	<img src="README.assets/1578322653163.png" alt="1578318453219" height="500" width="800" />
 
 概念设计
 --------------------
