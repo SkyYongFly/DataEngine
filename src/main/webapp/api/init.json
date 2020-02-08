@@ -1,0 +1,99 @@
+{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "page/welcome-1.html?mpi=m-p-i-0"
+  },
+  "logoInfo": {
+    "title": "SKY DFE",
+    "image": "images/icon.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "数据引擎",
+      "icon": "fa fa-database",
+      "child": [
+        {
+          "title": "系统首页",
+          "href": "page/welcome-1.html",
+          "icon": "fa fa-tachometer",
+          "target": "_self"
+        },
+        {
+          "title": "工程目录",
+          "href": "page/dataflow.html",
+          "icon": "fa fa-tasks",
+          "target": "_self"
+        },
+        {
+          "title": "实时监控",
+          "href": "",
+          "icon": "fa fa-street-view",
+          "target": "_self",
+          "child": [
+            {
+              "title": "执行监控",
+              "href": "page/form-step.html",
+              "icon": "fa fa-navicon",
+              "target": "_self"
+            },
+            {
+              "title": "异常监控",
+              "href": "page/form-step.html",
+              "icon": "fa fa-navicon",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "统计报表",
+          "href": "",
+          "icon": "fa fa-bar-chart",
+          "target": "_self",
+          "child": [
+            {
+              "title": "数据流统计",
+              "href": "page/form-step.html",
+              "icon": "fa fa-navicon",
+              "target": "_self"
+            },
+            {
+              "title": "性能统计",
+              "href": "page/form-step.html",
+              "icon": "fa fa-navicon",
+              "target": "_self"
+            },
+            {
+              "title": "异常统计",
+              "href": "page/form-step.html",
+              "icon": "fa fa-navicon",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "component": {
+      "title": "系统配置",
+      "icon": "fa fa-gear",
+      "child": [
+        {
+          "title": "菜单管理",
+          "href": "page/menu.html",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "图标列表",
+          "href": "page/icon.html",
+          "icon": "fa fa-dot-circle-o",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}

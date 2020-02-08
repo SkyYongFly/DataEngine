@@ -3,22 +3,26 @@ MEB（Micro Enterprise Basic）Platform 数据引擎
 
 [![ASL 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/Activiti/Activiti/blob/master/LICENSE.txt)
 
-MEB Data Engine，数据引擎，Web在线化数据流解决方案，解决业务场景数据获取处理的繁杂性问题，抽象数据服务，支撑表单引擎、规则引擎等（集群开发项目）数据获取场景，也可独立部署嵌套于任意业务应用。
+Sky Data Flow Engine，数据流引擎，Web可视化数据流中间件，解决开发场景后台逻辑服务集成编排的繁杂性问题，抽象逻辑数据处理，变革传统开发流程，提升产品代码开发速度。
 
 功能模块
 --------------------
-
-* SQL引擎
-
-    * 可视化SQL生成器，单表、级联自动生成，SQL校验，简化SQL编写
-    * 多数据源形式支持，涵盖大部分应用场景，做到数据流引擎的跨场景应用
     
-* 服务引擎
+* 逻辑组件
+
+    * 后台代码逻辑方法调用
+    
+* 服务组件
 
     * 定制数据获取服务接口，可视化配置器，支持REST等多形式接口
     * Netty框架支撑，保证服务处理的性能、稳定性
+    
+* SQL组件
 
-* 中间件引擎
+    * 可视化SQL生成器，单表、级联自动生成，SQL校验，简化SQL编写
+    * 多数据源形式支持，涵盖大部分应用场景，做到数据流引擎的跨场景应用
+
+* 中间件组件
 
     * 获取缓存、消息、ES等中间件数据
     * 支持Redis、EhCache等缓存中间件
@@ -48,6 +52,10 @@ MEB Data Engine，数据引擎，Web在线化数据流解决方案，解决业�
    * SpringBoot构建的Web应用，后续集群应用开发完毕升级为微服务架构
    
    * 相关组件中间件：MyBatis、Oracle、MySQL、Redis、Netty、Kafka等
+ 
+* 第三方框架
+
+   * 前端框架：https://gitee.com/zhongshaofa/layuimini
 
 * 整体架构
 
